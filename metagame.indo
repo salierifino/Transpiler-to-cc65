@@ -1,0 +1,35 @@
+ingat xbox bernilai 30
+ingat ybox bernilai 200
+ingat xmusuh bernilai 250
+ingat ymusuh bernilai 200
+
+perulangan
+    tombol Atas ditekan
+        ybox berkurang 3
+    tutup
+
+    tombol Atas dilepas
+        jika ybox < 200 maka
+            ybox bertambah 2
+        tutup
+    tutup
+
+    gambar xbox ybox hijau
+    gambar xmusuh ymusuh merah
+    xmusuh berkurang 2
+
+    jika xmusuh < 10 maka
+        xmusuh bernilai 250
+    tutup
+
+    # cek tabrak pakai jarak, bukan =
+    jika xmusuh = xbox maka
+        jika ybox > 190 maka
+        	jika ybox < 210 maka
+                    berakhir
+                tutup
+        tutup
+    tutup
+tutup
+
+
