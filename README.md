@@ -2,11 +2,11 @@
 
 Transpiler atau Translater bahasa pemrograman custom, dari bahasa Indonesia ke cc65. Yang dapat digunakan untuk membuat game NES (Nintendo Entertainment System). 
 
-File-file :
-indo.sh : File utama untuk transpilasi
-setup.sh : File untuk menaruh file utama ke ~/../usr/bin
-metagame.indo : File .indo contoh/demo
-tes.s : Hasil transpilasi ke ASM cc65
+File-file :  
+indo.sh : File utama untuk transpilasi  
+setup.sh : File untuk menaruh file utama ke ~/../usr/bin  
+metagame.indo : File .indo contoh/demo  
+tes.s : Hasil transpilasi ke ASM cc65  
 
 ## 1. Cara menggunakan
 Ada beberapa cara menggunakan bahasa pemrograman ini.
